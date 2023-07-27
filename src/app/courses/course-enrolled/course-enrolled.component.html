@@ -1,0 +1,63 @@
+<div class="container-fluid p-2 sticky-top" style="background-color: brown;">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div style="display: flex; justify-content: space-between;">
+          <div>
+            <h4>{{detailedCourse?.title}}</h4>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <h6 style="margin: 7px;">Announcements</h6>
+            <h6 style="margin: 7px;">Rate the course</h6>
+            <h6 style="margin: 7px;">Ask the Question</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+  <div class="container" style="border: none;">
+    <div class="card" style="text-align: center; border: none;">
+      <div class="card-header" style="font-weight: bold;">
+        Course Outline
+      </div>
+      <div class="list-group list-group-flush d-flex flex-row flex-wrap">
+        <ng-container *ngFor="let week of detailedCourse?.modules">
+          <button type="button" class="btn btn-outline-secondary flex-fill text-center btn-hover" (click)="selectedWeekData(week.weekNumber)" [class.active]="week.weekNumber === weekNumber">
+            Week {{week.weekNumber}}
+          </button>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  <div class="container p-1" *ngIf="weekData">
+    <div class="row">
+      <div class="col-md-3 p-4">
+        <div class="card" style="width: 100%;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item" *ngFor="let module of weekData.modules">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input"  name="modules" [value]="module.title">
+                <label class="custom-control-label"  style="padding-left: 10px; margin-bottom: 10px; font-size: 18px;"
+                (click)="getModuleVideo(module.title)">
+                  {{ module.title }}
+                </label>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-9" *ngIf="moduleName">
+        <div class="card" style="border: 1px solid black; height: 30rem;">
+          <div class="card-title mt-2" style="text-align: center; font-weight: bold;">
+            <h5>{{moduleName}}</h5>
+          </div>
+          <div class="d-md-flex justify-content-md-center">
+            <div><video width="750px" [src]="moduleData" controls></video></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  

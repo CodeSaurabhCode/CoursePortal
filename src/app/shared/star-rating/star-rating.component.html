@@ -1,0 +1,6 @@
+<span class="star-rating">
+    <ng-container *ngFor="let star of stars">
+      <span class="star" [ngClass]="{'filled': star <= fullStars, 'half-filled': star === fullStars + 0.5 && !hasHalfStar, 'empty': star > rating}">&#9733;</span>
+    </ng-container>
+  </span>
+  

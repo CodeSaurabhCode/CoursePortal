@@ -1,0 +1,86 @@
+<div class="container mt-3">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md">
+        <h4>{{course?.title}}</h4>
+        <h6 style="margin-top: 10px;">{{course?.instructor}} | {{instructor?.college}}</h6>
+        <div class="row mt-3">
+          <div class="col-md-1">
+            <div class="btn btn-primary" style="width: 100px; background-color: red; border-radius: 30px;"
+            [routerLink]="['/my-courses', course?.id]" (click)="onEnrolled()">Enroll</div> 
+          </div>
+          <div class="col-md">
+            <p style="font-size: 20px; padding: 5px; color: red; font-weight: bold;">Enrolled Learners: {{course?.studentsEnrolled}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-3" style="background-color: rgb(240, 242, 243);">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-6">
+        <h5 style="padding: 20px 0 10px 0;">ABOUT THE COURSE</h5>
+        <p>{{course?.description}}</p>
+        <p>This course intends to develop the basics of number theory touching upon many essential points such as the prime number theorem, quadratic reciprocity laws, Gauss’ theorem on the classification of binary quadratic forms, Brahmagupta-Pell equations, to quote a few. This course will enable a student to learn more advanced topics in number theory.</p>
+        
+        <p><strong>INTENDED AUDIENCE</strong>: Students with basic knowledge of Mathematics can take this course.</p> 
+        <p><strong>PREREQUISITES</strong>: Knowledge of basic group theory and ring theory will be useful but it is not necessary.</p> 
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <h5 style="padding: 20px 0 10px 0;">SUMMARY</h5>
+        <div class="row">
+          <div class="col-md-5">
+            <div style="margin-bottom: 10px;">Category</div>
+            <div style="margin-bottom: 10px;">Duration</div>
+            <div style="margin-bottom: 10px;">Credits</div>
+            <div style="margin-bottom: 10px;">Exam Date:</div>
+          </div>
+          <div class="col-md-7">
+            <div style="margin-bottom: 10px;">{{course?.category}}</div>
+            <div style="margin-bottom: 10px;">{{course?.duration}} Weeks</div>
+            <div style="margin-bottom: 10px;">9 Credits</div>
+            <div style="margin-bottom: 10px;">20th November 2023</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <p>Course layout</p>
+        <p>Week 1: Factorization of numbers, primes</p>
+        <p>Week 2: GCD, Euclid’s algorithm, properties of primes</p>
+        <p>Week 3: Arithmetical functions, examples</p>
+        <p>Week 4: Dirichlet product, Möbius inversion</p>
+        <p>Week 5: Congruences, Chinese remainder theorem, primitive roots</p>
+        <p>Week 6: Quadratic reciprocity law, applications</p>
+        <p>Books and references</p>
+        <p>1. (​Alan Baker​) A comprehensive course in number theory</p>
+        <p>2. (​Niven, Zuckerman​) An introduction to the theory of numbers</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4 mt-3 ml-2" >
+              <img [src]="instructor?.imageUrl" class="img-fluid"  style="border-radius: 150px; padding: auto; align-items: center;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{instructor?.name}}</h5>
+                <p class="card-text"><small class="text-body-secondary">{{instructor?.college}}</small></p>
+                <p class="card-text">{{instructor?.bio}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

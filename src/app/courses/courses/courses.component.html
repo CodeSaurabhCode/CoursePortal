@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+      <section class="col-lg-3 col-md-4 col-sm-12 mb-4">
+        <h5 class="text ms-3">Sort</h5>
+        <select class="form-select mb-4" (change)="onSortSelected($event)">
+          <option *ngFor="let sort of sortOptions" [value]="sort.value">{{sort.name}}</option>
+        </select>
+        <h5 class="text ms-3">Category</h5>
+        <ul class="list-group">
+          <li class="list-group-item" [class.active] = "courses === searchCourses" value="all" (click)="getAll()">All</li>
+          <li class="list-group-item" *ngFor="let category of Categories" [class.active]="category.id === CategoryIdSelected"
+            [value]="category.id" (click)="onCategorySelected(category.id)">{{category.name}}</li>
+        </ul>
+      </section>
+      <section class="col-lg-9 col-md-8 col-sm-12">
+        <div class="d-flex justify-content-between align-items-center pb-2">
+          <div class="d-flex mt-3">
+            <input type="text" placeholder="Search" class="form-control me-2" [(ngModel)]="searchText">
+          </div>
+          <div class="d-flex mt-3">
+            <div class="btn btn-success" routerLink="/createcourse" *ngIf="canDelete()">Add Course</div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          <div class="col" *ngFor="let course of searchCourses">
+            <app-course-item [course]="course"></app-course-item>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  

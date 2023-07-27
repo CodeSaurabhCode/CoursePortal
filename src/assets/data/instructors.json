@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "name": "Prof. Shrikant K.",
+      "college": "Indian Institute of Technology (IIT) Bombay",
+      "bio": "Prof. Shrikant K. is a highly experienced web development expert with a passion for teaching. He has been actively involved in various web development projects and has mentored numerous students in their journey to become proficient developers.",
+      "imageUrl": "./assets/instructors/prof_shrikant.jfif"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajnish Kumar",
+      "college": "Indian Institute of Technology (IIT) Delhi",
+      "bio": "Dr. Rajnish Kumar is an expert in advanced React and Redux concepts. He has a strong background in software engineering and has been instrumental in developing cutting-edge web applications. Dr. Kumar enjoys sharing his knowledge and expertise with aspiring developers.",
+      "imageUrl": "./assets/instructors/dr_rajnish_kumar.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Prof. Manikandan M.",
+      "college": "Indian Institute of Technology (IIT) Madras",
+      "bio": "Prof. Manikandan M. is a renowned faculty member at IIT Madras, specializing in machine learning and its applications. His research contributions in the field have been widely recognized, and he is dedicated to helping students grasp the fundamentals of machine learning.",
+      "imageUrl": "./assets/instructors/prof_manikandan_m.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Prof. Shreenivasan R.",
+      "college": "Indian Institute of Technology (IIT) Bombay",
+      "bio": "Prof. Shreenivasan R. is a leading expert in deep learning techniques, particularly with TensorFlow. He is passionate about advancing the field of artificial intelligence and enjoys guiding students through the complexities of deep learning models.",
+      "imageUrl": "./assets/instructors/prof_shreenivasan_r.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Preeti Aghalayam",
+      "college": "Indian Institute of Management (IIM) Bangalore",
+      "bio": "Dr. Preeti Aghalayam is an accomplished product management professional with extensive experience in developing successful products. She is dedicated to sharing her knowledge and helping students understand the key principles of product management.",
+      "imageUrl": "./assets/instructors/dr_preeti_aghalayam.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dr. V Kamakoti",
+      "college": "Indian Institute of Technology (IIT) Madras",
+      "bio": "Dr. V Kamakoti is a seasoned educator with expertise in Agile project management. He has successfully managed and delivered various projects, and he takes pride in guiding students on effective project management using Agile methodologies.",
+      "imageUrl": "./assets/instructors/dr_v_kamakoti.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Prof. Tahira Pandey",
+      "college": "Xavier School of Human Resource Management",
+      "bio": "Prof. Tahira Pandey is a distinguished faculty member specializing in human resource management strategies. With extensive experience in the industry, she is dedicated to preparing students for the challenges of HR management and employee development.",
+      "imageUrl": "./assets/instructors/prof_tahira_pandey.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Prof. Shreya Baskar",
+      "college": "Tata Institute of Social Sciences (TISS), Mumbai",
+      "bio": "Prof. Shreya Baskar is an expert in designing and delivering effective employee training programs. Her experience in training and development helps students gain practical insights into creating impactful training sessions for employees.",
+      "imageUrl": "./assets/instructors/prof_shreya_baskar.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Bhaskar Ramamurthy",
+      "college": "Indian Institute of Technology (IIT) Madras",
+      "bio": "Dr. Bhaskar Ramamurthy is a leading faculty member at IIT Madras, specializing in full stack web development. With hands-on experience in building web applications, he aims to equip students with the skills to become proficient full stack developers.",
+      "imageUrl": "./assets/instructors/dr_bhaskar_ramamurthy.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Prof. Olivia Garcia",
+      "college": "Indian Institute of Technology (IIT) Bombay",
+      "bio": "Prof. Olivia Garcia is an accomplished expert in Natural Language Processing (NLP). Her research contributions have advanced the field, and she is passionate about teaching students NLP techniques to analyze and generate human language.",
+      "imageUrl": "./assets/instructors/prof_olivia_garcia.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Prof. William Davis",
+      "college": "Stanford University",
+      "bio": "Prof. William Davis is a distinguished faculty member at Stanford University, specializing in product design and prototyping. He brings real-world product design experience to the classroom and encourages students to design and prototype products for user feedback.",
+      "imageUrl": "./assets/instructors/prof_william_davis.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Prof. Emma Johnson",
+      "college": "Harvard Business School",
+      "bio": "Prof. Emma Johnson is an esteemed expert in employee relations and conflict resolution. Her knowledge in HR management and conflict resolution helps students develop the skills necessary to handle employee relations effectively.",
+      "imageUrl": "./assets/instructors/prof_emma_johnson.jpg"
+    }
+  ]
+  

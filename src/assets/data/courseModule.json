@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Web Development",
+    "category": "Software Development",
+    "instructor": {
+      "name": "Prof. Shrikant K.",
+      "college": "Indian Institute of Technology (IIT) Bombay",
+      "bio": "Prof. Shrikant K. is a highly experienced web development expert with a passion for teaching. He has been actively involved in various web development projects and has mentored numerous students in their journey to become proficient developers."
+    },
+    "description": "Learn the basics of web development using HTML, CSS, and JavaScript.",
+    "duration": 6,
+    "price": 199.00,
+    "imageUrl": "./assets/courses/webdev.jfif",
+    "rating": 4.5,
+    "studentsEnrolled": 1500,
+    "modules": [
+      {
+        "weekNumber": 1,
+        "modules": [
+          {
+            "title": "Course Introduction",
+            "description": "\\assets\\Videos\\IntroToWeb.mp4",
+            "lectures": 1,
+            "assignments": 0,
+            "quizzes": 0
+          },
+          {
+            "title": "HTML Basics",
+            "description": "In this module, you will learn the fundamentals of HTML, including tags, elements, and basic page structure.",
+            "lectures": 5,
+            "assignments": 2,
+            "quizzes": 1
+          },
+          {
+            "title": "HTML Forms",
+            "description": "Learn how to create forms in HTML to collect user inputs and process them.",
+            "lectures": 3,
+            "assignments": 1,
+            "quizzes": 1
+          },
+          {
+            "title": "Assignment",
+            "description": "Learn how to create forms in HTML to collect user inputs and process them.",
+            "lectures": 3,
+            "assignments": 1,
+            "quizzes": 1
+          },
+          {
+            "title": "Quiz",
+            "description": "Learn how to create forms in HTML to collect user inputs and process them.",
+            "lectures": 3,
+            "assignments": 1,
+            "quizzes": 1
+          }
+        ]
+      },
+      {
+        "weekNumber": 2,
+        "modules": [
+          {
+            "title": "CSS Basics",
+            "description": "Discover the fundamentals of CSS and how to apply styles to HTML elements.",
+            "lectures": 4,
+            "assignments": 2,
+            "quizzes": 1
+          },
+          {
+            "title": "CSS Layout",
+            "description": "Learn how to create different layouts using CSS, including positioning and responsive design.",
+            "lectures": 6,
+            "assignments": 3,
+            "quizzes": 1
+          }
+        ]
+      },
+      {
+        "weekNumber": 3,
+        "modules": [
+          {
+            "title": "Introduction to JavaScript",
+            "description": "Get started with JavaScript and learn about variables, data types, and basic programming concepts.",
+            "lectures": 5,
+            "assignments": 2,
+            "quizzes": 1
+          },
+          {
+            "title": "DOM Manipulation",
+            "description": "Explore how to manipulate the Document Object Model (DOM) using JavaScript to create interactive web pages.",
+            "lectures": 4,
+            "assignments": 2,
+            "quizzes": 1
+          }
+        ]
+      },
+      {
+        "weekNumber": 4,
+        "modules": [
+          {
+            "title": "JavaScript Functions",
+            "description": "Learn about functions in JavaScript and how to use them to organize your code.",
+            "lectures": 3,
+            "assignments": 1,
+            "quizzes": 1
+          },
+          {
+            "title": "JavaScript Events",
+            "description": "Discover how to handle user events in JavaScript and create dynamic web interactions.",
+            "lectures": 4,
+            "assignments": 2,
+            "quizzes": 1
+          }
+        ]
+      },
+      {
+        "weekNumber": 5,
+        "modules": [
+          {
+            "title": "Introduction to Bootstrap",
+            "description": "Get an introduction to Bootstrap framework for building responsive and visually appealing web applications.",
+            "lectures": 5,
+            "assignments": 2,
+            "quizzes": 1
+          },
+          {
+            "title": "Introduction to Frontend Frameworks",
+            "description": "Learn about popular frontend frameworks like React, Angular, and Vue.js.",
+            "lectures": 2,
+            "assignments": 1,
+            "quizzes": 1
+          }
+        ]
+      },
+      {
+        "weekNumber": 6,
+        "modules": [
+          {
+            "title": "Final Project",
+            "description": "Work on your final project to showcase what you have learned throughout the course.",
+            "lectures": 0,
+            "assignments": 1,
+            "quizzes": 0
+          }
+        ]
+      }
+    ]
+  }
+]
+  
